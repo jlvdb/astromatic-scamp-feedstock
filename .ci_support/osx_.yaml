@@ -3,13 +3,15 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '4'
+- '9'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 curl:
 - '7.64'
+fftw:
+- '3'
 liblapacke:
 - 3.8.0 *netlib
 macos_machine:
@@ -18,4 +20,6 @@ macos_min_version:
 - '10.9'
 pin_run_as_build:
   curl:
+    max_pin: x
+  fftw:
     max_pin: x
