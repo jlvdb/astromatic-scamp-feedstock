@@ -7,7 +7,7 @@ index c27f1d0..4f02a1d 100644
  {
      setstruct *refset, *refset2, *set, *fieldset;
 -    char  str[128];
-+    char  str[MACHAR];
++    char  str[MAXCHAR];
      double wcspos[NAXIS],
      angle,scale,dlng,dlat, dx,dy, dx2,dy2, sig, dlng2,dlat2,sig2, asig,
      dangle,dscale, ddlng,ddlat, shear,sangle, sheartot, sangletot,
