@@ -14,7 +14,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -26,10 +26,11 @@ requirements:
   host:
     - fftw
     - curl
-    - liblapacke
+    - openblas
   run:
     - fftw
     - libcurl
+    - openblas
 
 test:
   commands:
