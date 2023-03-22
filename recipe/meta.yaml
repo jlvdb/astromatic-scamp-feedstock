@@ -26,10 +26,11 @@ requirements:
   host:
     - fftw
     - curl
-    - liblapacke
+    - openblas
   run:
     - fftw
     - libcurl
+    - openblas
 
 test:
   commands:
