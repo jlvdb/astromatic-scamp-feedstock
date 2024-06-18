@@ -1,5 +1,5 @@
 {% set name = "scamp" %}
-{% set version = "2.10.1" %}
+{% set version = "2.10.0" %}
 
 package:
   name: astromatic-{{ name }}
