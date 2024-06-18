@@ -7,7 +7,7 @@ sh autogen.sh
     --with-openblas-libdir=${PREFIX}/lib \
     --with-curl-incdir=${PREFIX}/include \
     --with-curl-libdir=${PREFIX}/lib \
-    --enable-plplot=no
+    --enable-plplot=yes
 make
 
 make install

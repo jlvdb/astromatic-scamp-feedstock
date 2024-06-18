@@ -1,5 +1,5 @@
 {% set name = "scamp" %}
-{% set version = "2.10.0" %}
+{% set version = "2.10.1" %}
 
 package:
   name: astromatic-{{ name }}
@@ -27,10 +27,12 @@ requirements:
     - fftw
     - curl
     - openblas
+    - plplot
   run:
     - fftw
     - libcurl
     - openblas
+    - plplot
 
 test:
   commands:
