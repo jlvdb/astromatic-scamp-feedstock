@@ -8,6 +8,10 @@ echo
 
 conda config --add channels conda-forge
 conda config --set channel_priority strict
-conda install -y conda-build plplot
+
+# get build requirements
+conda install -y conda-build
+
+# bypass the default conda-forge install and build locally using a custom config
 conda-build recipe
 conda install -y -c file://${CONDA_PREFIX}/conda-bld astromatic-scamp
